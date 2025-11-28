@@ -1,0 +1,49 @@
+/* 
+    LEVEL 1: CSS (SAJAWAT)
+    
+    [ LOGIC: YE KAISE KAAM KARTA HAI? ]
+    CSS "Selectors" ka use karta hai.
+    Selector ka matlab: "Kisko design karna hai?"
+    
+    Example:
+    h1 { color: red; }
+    ^      ^
+    |      |
+    Kisko? Kya karna hai?
+    (H1 ko) (Laal rang do)
+*/
+
+/* 
+    1. BODY SELECTOR
+    Humne 'body' tag ko select kiya.
+    Kyu? Kyunki hum chahte hain ki PURE PAGE par ye rules lagu hon.
+*/
+body {
+    /* Background ka rang halka gray (#f0f0f0) kar do */
+    background-color: #f0f0f0;
+
+    /* Text ka rang dark gray (#333) kar do. Black (#000) aankhon ko chubhta hai. */
+    color: #333;
+
+    /* Font style change karke 'sans-serif' (clean look) kar do */
+    font-family: sans-serif;
+
+    /* Saare text ko page ke beech (center) me le aao */
+    text-align: center;
+
+    /* Upar se 50px ki jagah chhod do taaki text chipke nahi */
+    padding-top: 50px;
+}
+
+/* 
+    2. H1 SELECTOR
+    Humne sirf 'h1' tag ko select kiya.
+    Ye rule sirf headings par lagega, paragraphs par nahi.
+*/
+h1 {
+    /* Heading ka rang neela (blue) kar do */
+    color: #007bff;
+
+    /* Thoda sa shadow (parchhai) daal do taaki wo utha hua dikhe */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}

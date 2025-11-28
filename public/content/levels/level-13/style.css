@@ -1,0 +1,71 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #a0a0b0;
+    font-weight: bold;
+}
+
+/* Styled Input */
+.styled-input {
+    width: 100%;
+    padding: 12px 15px;
+    /* Andar jagah */
+    background-color: #2d2d2d;
+    border: 2px solid #444;
+    /* Border */
+    border-radius: 8px;
+    /* Gol kone */
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    /* Smooth animation */
+    box-sizing: border-box;
+}
+
+/* Focus State: Jab user click kare */
+.styled-input:focus {
+    border-color: #007acc;
+    /* Blue border */
+    background-color: #333;
+    /* Thoda light background */
+    outline: none;
+    /* Default outline hatana */
+    box-shadow: 0 0 10px rgba(0, 122, 204, 0.5);
+    /* Glow effect */
+}
+
+/* Styled Button */
+.styled-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #007acc, #00d2ff);
+    /* Gradient color */
+    border: none;
+    border-radius: 25px;
+    /* Pill shape */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.styled-btn:hover {
+    transform: scale(1.05);
+    /* Thoda bada hona */
+}

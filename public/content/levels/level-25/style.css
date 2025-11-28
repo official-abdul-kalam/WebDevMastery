@@ -1,0 +1,50 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2d2d2d;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 400px;
+    border: 1px solid #444;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #ff5f56;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    background-color: #ff3b30;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

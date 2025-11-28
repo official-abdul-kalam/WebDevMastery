@@ -1,0 +1,78 @@
+/* Body Styling */
+body {
+    background-color: #1e1e1e;
+    /* Dark background */
+    color: #fff;
+    /* White text */
+    font-family: 'Fira Code', monospace;
+    /* Coding font */
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    /* Center me lane ke liye */
+}
+
+/* Card Styling */
+.card {
+    background-color: #2d2d2d;
+    /* Thoda light grey */
+    padding: 20px;
+    margin-bottom: 20px;
+    /* Neeche gap */
+    border-radius: 10px;
+    /* Gol kone */
+    border: 1px solid #444;
+    /* Patla border */
+}
+
+/* List Styling */
+ul,
+ol {
+    margin-left: 20px;
+    /* Left se thoda gap */
+}
+
+li {
+    margin-bottom: 5px;
+    /* Har item ke beech gap */
+    color: #a0a0b0;
+    /* Light grey text */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    /* Poori choudai le lo */
+    border-collapse: collapse;
+    /* Borders ko chipka do (double lines hatane ke liye) */
+    margin-top: 10px;
+}
+
+/* Table Heading & Data Cells */
+th,
+td {
+    border: 1px solid #444;
+    /* Har dabbe ka border */
+    padding: 10px;
+    /* Dabbe ke andar gap */
+    text-align: left;
+    /* Text ko left rakho */
+}
+
+/* Heading Background */
+th {
+    background-color: #007acc;
+    /* Blue header */
+    color: white;
+}
+
+/* Alternate Row Color (Zebra Striping) */
+/* 'nth-child(even)' ka matlab har dusri line */
+tr:nth-child(even) {
+    background-color: #333;
+    /* Thoda dark background */
+}

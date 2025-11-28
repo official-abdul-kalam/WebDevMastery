@@ -1,0 +1,19 @@
+{
+    "id": 3,
+    "title": "Module 3: Forms & Logic",
+    "description": "Forms ko sundar banana aur JavaScript ka asli dimaag (Logic) seekhna.",
+    "chapters": [
+        {
+            "title": "1. Styling Forms",
+            "content": "<p>Boring forms kisi ko pasand nahi. CSS se hum inputs ko sundar bana sakte hain.</p><ul><li><b>Padding</b>: Input ke andar jagah banane ke liye.</li><li><b>Border</b>: Color change karne ke liye.</li><li><b>:focus</b>: Jab user click kare to style badalna.</li></ul>"
+        },
+        {
+            "title": "2. Validation (Sahi Data)",
+            "content": "<p>Agar user email ki jagah naam likh de to? Validation zaroori hai.</p><p>HTML5 humein <code>required</code>, <code>minlength</code>, aur <code>type='email'</code> jaise tools deta hai bina JS ke check karne ke liye.</p>"
+        },
+        {
+            "title": "3. JavaScript Logic (The Brain)",
+            "content": "<p>Ab tak humne sirf design kiya. Ab hum 'Sochna' seekhenge.</p><ul><li><b>Variables</b>: Data ko save karne ke liye dabbe (Box).</li><li><b>Functions</b>: Ek kaam ko baar-baar karne wali machine.</li><li><b>If/Else</b>: Decision lene ki taakat (Agar ye hua to wo karo).</li></ul>"
+        }
+    ]
+}

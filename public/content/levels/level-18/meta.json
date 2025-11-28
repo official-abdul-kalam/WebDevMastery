@@ -1,0 +1,6 @@
+{
+    "title": "Level 18: Loops",
+    "badge": "Level 18",
+    "description": "Code ko repeat karna (Chakkar lagana).",
+    "guide": "<h3>Loops Kya Hain?</h3><p>Loops humein ek hi code ko baar-baar chalane ki taakat dete hain.</p><ul><li><code>for (start; end; step)</code>: Sabse common loop.</li><li><code>i++</code>: Iska matlab hai i = i + 1.</li><li>Is level me hum Table (Pahada) print kar rahe hain.</li></ul>"
+}

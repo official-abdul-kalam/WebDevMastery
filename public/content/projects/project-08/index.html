@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 8: Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">💬 QuoteGen</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Generator</a></li>
+            <li><a href="authors.html">Authors</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="quote-card">
+            <div class="icon"><i class="fa-solid fa-quote-left"></i></div>
+
+            <p id="quoteText">Click the button to get inspired!</p>
+            <h4 id="quoteAuthor">- Web Dev Mastery</h4>
+
+            <button onclick="generateQuote()">New Quote</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

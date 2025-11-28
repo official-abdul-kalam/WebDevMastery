@@ -1,0 +1,19 @@
+{
+    "id": 9,
+    "title": "Module 9: Advanced Concepts",
+    "description": "JavaScript ki gehraaiyan.",
+    "chapters": [
+        {
+            "title": "1. Closures",
+            "content": "<p>Jab ek function apne bahar wale function ke variables ko yaad rakhta hai.</p>"
+        },
+        {
+            "title": "2. Prototypal Inheritance",
+            "content": "<p>JavaScript me har object ka ek parent (prototype) hota hai jisse wo properties leta hai.</p>"
+        },
+        {
+            "title": "3. The 'this' Keyword",
+            "content": "<p>Ye batata hai ki function kis context me chal raha hai (kaun use call kar raha hai).</p>"
+        }
+    ]
+}

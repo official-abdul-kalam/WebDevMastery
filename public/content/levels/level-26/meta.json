@@ -1,0 +1,6 @@
+{
+    "title": "Level 26: Event Bubbling",
+    "badge": "Level 26",
+    "description": "Events ka upar ki taraf behna.",
+    "guide": "<h3>Bubbling</h3><p>Jab child par click hota hai, to browser samajhta hai ki parent par bhi click hua.</p><ul><li><code>event.stopPropagation()</code>: Isse bubbling ruk jaati hai.</li></ul>"
+}

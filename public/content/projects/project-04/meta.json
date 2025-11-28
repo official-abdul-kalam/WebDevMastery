@@ -1,0 +1,6 @@
+{
+    "title": "Project 4: Registration Form",
+    "badge": "Project 4",
+    "description": "Forms aur Inputs ka use karke ek Signup Page banayein.",
+    "guide": "<h3>Project 4: Registration</h3><p>Is project me humne seekha:</p><ul><li><b>Inputs</b>: Text, Email, Password.</li><li><b>Selection</b>: Radio Buttons aur Checkboxes.</li><li><b>Validation</b>: JS se check karna ki data sahi hai ya nahi.</li></ul>"
+}

@@ -1,0 +1,5 @@
+{
+    "title": "Level 2: Text Magic (Formatting)",
+    "description": "Text ko bold, italic aur headings me kaise likhein.",
+    "guide": "<h3>Level 2: Text Magic</h3><p>Is level me hum text ko sajana seekhenge. Jaise Word ya Google Docs me hum text ko <b>Bold (Mota)</b>, <i>Italic (Tircha)</i>, ya <u>Underline</u> karte hain, waise hi HTML me bhi kar sakte hain.</p><p>Hum 6 tarah ki <b>Headings (h1 se h6)</b> bhi seekhenge.</p>"
+}

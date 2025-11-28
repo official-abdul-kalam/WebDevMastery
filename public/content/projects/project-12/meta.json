@@ -1,0 +1,6 @@
+{
+    "title": "Project 12: Drum Kit",
+    "badge": "Project 12",
+    "description": "Keyboard se music bajana.",
+    "guide": "<h3>Project 12: Audio & Keys</h3><p>Is project me humne seekha:</p><ul><li><b>Audio Tag</b>: JS se <code>audio.play()</code> karna.</li><li><b>Data Attributes</b>: <code>data-key</code> se HTML aur JS ko link karna.</li><li><b>TransitionEnd</b>: Animation khatam hone ka wait karna.</li></ul>"
+}

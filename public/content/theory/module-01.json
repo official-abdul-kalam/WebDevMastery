@@ -1,0 +1,19 @@
+{
+    "id": 1,
+    "title": "Module 1: The Foundation",
+    "description": "Web Development ki duniya me aapka swagat hai. Is module me hum seekhenge ki website banti kaise hai.",
+    "chapters": [
+        {
+            "title": "1. HTML, CSS, JS: Rishta Kya Hai?",
+            "content": "<p>Website ek insaan ki tarah hoti hai:</p><ul><li><b>HTML (Skeleton)</b>: Ye haddiyan hain. Ye batata hai ki page par kya hai (Heading, Photo, Button).</li><li><b>CSS (Skin/Clothes)</b>: Ye kapde aur rang hain. Ye batata hai ki cheezein kaisi dikhengi (Red color, Center alignment).</li><li><b>JavaScript (Brain)</b>: Ye dimag hai. Ye cheezon ko kaam karwata hai (Button click hone par kya hoga).</li></ul><div class='note'><strong>Yaad Rakhein:</strong> Bina HTML ke CSS aur JS hawa me hain. HTML sabse zaroori hai.</div>"
+        },
+        {
+            "title": "2. Linkage: Ye Jude Kaise Hain?",
+            "content": "<p>Aapne 3 files banayi: <code>index.html</code>, <code>style.css</code>, aur <code>script.js</code>. Lekin browser sirf HTML ko padhta hai. To baaki files kaise judti hain?</p><h3>CSS ko HTML se jodna:</h3><p>Hum <code>&lt;head&gt;</code> ke andar <code>&lt;link&gt;</code> tag use karte hain.</p><pre><code>&lt;link rel='stylesheet' href='style.css'&gt;</code></pre><p>Iska matlab: 'Browser bhai, <b>style.css</b> file ko padho aur is page ko sundar banao.'</p><h3>JS ko HTML se jodna:</h3><p>Hum <code>&lt;body&gt;</code> ke end me <code>&lt;script&gt;</code> tag use karte hain.</p><pre><code>&lt;script src='script.js'&gt;&lt;/script&gt;</code></pre><p>Iska matlab: 'Browser bhai, <b>script.js</b> file ko padho aur dimag chalao.'</p>"
+        },
+        {
+            "title": "3. Box Model (Dabba Concept)",
+            "content": "<p>Web design me <b>Har Cheez Ek Dabba (Box) Hai</b>.</p><p>Chahe wo photo ho, text ho, ya button. Har dabbe ke paas 3 cheezein hoti hain:</p><ol><li><b>Padding</b>: Dabbe ke andar ki hawa (Space inside).</li><li><b>Border</b>: Dabbe ki deewar (Boundary).</li><li><b>Margin</b>: Dabbe ke bahar ki doori (Space outside).</li></ol>"
+        }
+    ]
+}

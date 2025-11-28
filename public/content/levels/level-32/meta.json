@@ -1,0 +1,6 @@
+{
+    "title": "Level 32: Promises",
+    "badge": "Level 32",
+    "description": "Future value ka wada.",
+    "guide": "<h3>Promise</h3><p>Ye callback hell se bachata hai.</p><ul><li><code>resolve(data)</code>: Jab kaam safal ho.</li><li><code>reject(error)</code>: Jab kaam fail ho.</li><li><code>.then()</code>: Success handle karein.</li><li><code>.catch()</code>: Error handle karein.</li></ul>"
+}

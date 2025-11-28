@@ -1,0 +1,5 @@
+{
+    "title": "Level 4: The Box Model",
+    "description": "CSS ka sabse zaroori concept: Margin, Padding, aur Border.",
+    "guide": "<h3>Level 4: The Box Model</h3><p>HTML me har cheez ek dabba (box) hoti hai. Is dabbe ke 3 parts hote hain:</p><ul><li><b>Padding</b>: Dabbe ke andar ki jagah.</li><li><b>Border</b>: Dabbe ki boundary (kinala).</li><li><b>Margin</b>: Dabbe ke bahar ki jagah (dusre dabbo se doori).</li></ul>"
+}

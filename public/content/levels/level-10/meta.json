@@ -1,0 +1,6 @@
+{
+    "title": "Level 10: Flexbox Alignment",
+    "badge": "Level 10",
+    "description": "Web Design ka sabse bada sawal: 'Isko Center kaise karun?'",
+    "guide": "<h3>Alignment Guide</h3><ul><li><b>justify-content</b>: Ye items ko Left-Right (Main Axis) move karta hai.</li><li><b>align-items</b>: Ye items ko Top-Bottom (Cross Axis) move karta hai.</li></ul><p>Dono ko <code>center</code> kar do, aur item perfectly beech me aa jayega!</p>"
+}

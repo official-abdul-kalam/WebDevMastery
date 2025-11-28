@@ -1,0 +1,67 @@
+/* 
+    LEVEL 4: BOX MODEL
+    
+    [ LOGIC ]
+    Padding, Border, aur Margin ka fark samjhein.
+*/
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.box {
+    background-color: white;
+    width: 200px;
+    /* Fixed chaudai (width) */
+    text-align: center;
+    margin-bottom: 10px;
+    /* Thodi si jagah neeche */
+}
+
+/* 
+    1. PADDING (Andar ki jagah)
+    Padding content ko border se door karta hai.
+    Agar padding na ho, to text border se chipak jayega.
+*/
+.box-padding {
+    background-color: #ffcccc;
+    padding: 50px;
+}
+
+/* 
+    2. BORDER (Kinala/Deewar)
+    Border element ki boundary hoti hai.
+    Syntax: Motai | Style | Rang
+    Example: 5px solid green
+*/
+.box-border {
+    background-color: #ccffcc;
+    border: 5px solid green;
+}
+
+/* 
+    3. MARGIN (Bahar ki jagah)
+    Margin element ko dusre elements se door dhakelta hai.
+    Isse element ka size bada nahi hota, bas wo door ho jata hai.
+*/
+.box-margin {
+    background-color: #ccccff;
+
+    /* Left side se 50px door */
+    margin-left: 50px;
+
+    /* Neeche se 50px door */
+    margin-bottom: 50px;
+}
+
+/* 
+    4. SAB KUCH EK SAATH
+*/
+.box-all {
+    background-color: #ffffcc;
+    padding: 20px;
+    border: 10px dashed orange;
+    margin: 50px;
+}

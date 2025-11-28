@@ -1,0 +1,6 @@
+{
+    "title": "Level 38: Spread Operator",
+    "badge": "Level 38",
+    "description": "Arrays aur Objects ko failana.",
+    "guide": "<h3>Spread (...)</h3><p>Ye array ya object ke elements ko khol deta hai.</p><ul><li><code>[...arr1, ...arr2]</code>: Arrays jodna.</li><li><code>{...obj1, ...obj2}</code>: Objects merge karna.</li></ul>"
+}

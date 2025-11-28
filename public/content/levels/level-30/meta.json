@@ -1,0 +1,6 @@
+{
+    "title": "Level 30: Form Events",
+    "badge": "Level 30",
+    "description": "Form submission control karna.",
+    "guide": "<h3>preventDefault()</h3><p>Forms by default page ko reload kar dete hain. Ise rokne ke liye hum <code>event.preventDefault()</code> use karte hain taaki hum JS se data handle kar sakein.</p>"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "Project 14: Movie Search",
+    "badge": "Project 14",
+    "description": "Movies search engine.",
+    "guide": "<h3>Project 14: Search App</h3><p>Is project me humne seekha:</p><ul><li><b>Search Query</b>: URL me user ka input kaise bhejein (<code>?q=...</code>).</li><li><b>Array Mapping</b>: API se aaye list ko loop karke cards banana.</li><li><b>Fallback Image</b>: Agar image na ho to kya karein.</li></ul>"
+}

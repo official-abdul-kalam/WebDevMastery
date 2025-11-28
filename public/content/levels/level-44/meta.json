@@ -1,0 +1,6 @@
+{
+    "title": "Level 44: Recursion",
+    "badge": "Level 44",
+    "description": "Khud ko call karna.",
+    "guide": "<h3>Recursion</h3><p>Loop ka alternative. Jab ek function khud ko hi call karta hai.</p><ul><li><b>Base Case</b>: Zaroori hai taaki infinite loop na bane.</li></ul>"
+}

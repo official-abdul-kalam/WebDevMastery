@@ -1,0 +1,19 @@
+{
+    "id": 7,
+    "title": "Module 7: APIs & Async JS",
+    "description": "Internet se data lana aur Asynchronous code.",
+    "chapters": [
+        {
+            "title": "1. Asynchronous JavaScript",
+            "content": "<p>JavaScript ek time par ek hi kaam karti hai. Par <b>Async</b> code se hum background me kaam kar sakte hain (jaise data download karna).</p>"
+        },
+        {
+            "title": "2. Promises",
+            "content": "<p>Promise ek wada hai ki future me data aayega.</p><ul><li><b>Pending</b>: Kaam chal raha hai.</li><li><b>Resolved</b>: Kaam ho gaya.</li><li><b>Rejected</b>: Error aa gaya.</li></ul>"
+        },
+        {
+            "title": "3. Fetch API",
+            "content": "<p>Server se data lane ke liye <code>fetch()</code> use hota hai. Ye ek Promise return karta hai.</p>"
+        }
+    ]
+}

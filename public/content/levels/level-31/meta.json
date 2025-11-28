@@ -1,0 +1,6 @@
+{
+    "title": "Level 31: Callbacks",
+    "badge": "Level 31",
+    "description": "Kaam khatam hone par call karna.",
+    "guide": "<h3>Callback Function</h3><p>Ek function jo doosre function ko pass kiya jaata hai taaki wo baad me chal sake.</p><ul><li><code>setTimeout(callback, time)</code>: Sabse common example.</li></ul>"
+}

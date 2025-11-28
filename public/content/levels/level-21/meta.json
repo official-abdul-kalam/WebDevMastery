@@ -1,0 +1,6 @@
+{
+    "title": "Level 21: Selecting Elements",
+    "badge": "Level 21",
+    "description": "HTML ko JS me kaise layein.",
+    "guide": "<h3>Selectors</h3><p>Element ko pakadne ke bina hum uspar kuch nahi kar sakte.</p><ul><li><code>getElementById</code>: Sabse tez, ID ke liye.</li><li><code>querySelector</code>: CSS selector jaisa (e.g. <code>.class</code>, <code>#id</code>, <code>div</code>).</li><li><code>querySelectorAll</code>: Ek list deta hai saare matching elements ki.</li></ul>"
+}

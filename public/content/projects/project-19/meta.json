@@ -1,0 +1,7 @@
+{
+    "id": "project-19",
+    "title": "Sticky Notes App",
+    "badge": "LocalStorage",
+    "description": "Build a sticky notes application that saves your notes automatically.",
+    "guide": "This project uses LocalStorage to persist data. We store an array of note objects (id, content) as a JSON string. When the app loads, we parse this string back into an array to display the notes."
+}

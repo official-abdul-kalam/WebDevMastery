@@ -1,0 +1,6 @@
+{
+    "title": "Level 29: Keyboard Events",
+    "badge": "Level 29",
+    "description": "Keyboard inputs ko capture karna.",
+    "guide": "<h3>keydown vs keyup</h3><p>Keyboard se interact karne ke liye:</p><ul><li><code>keydown</code>: Jab key dabayi jaye.</li><li><code>keyup</code>: Jab key chhodi jaye.</li><li><code>event.key</code>: Kaunsi key hai, ye batata hai.</li></ul>"
+}

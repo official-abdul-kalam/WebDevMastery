@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 11: Persistent To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>💾 Saved Tasks</h1>
+            <p>Refresh karne par bhi data rahega.</p>
+        </header>
+
+        <div class="todo-card">
+            <form id="todoForm">
+                <input type="text" id="taskInput" placeholder="Add a task..." required>
+                <button type="submit"><i class="fa-solid fa-plus"></i></button>
+            </form>
+
+            <ul id="taskList">
+                <!-- Tasks here -->
+            </ul>
+
+            <button onclick="clearAll()" class="btn-clear">Clear All</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

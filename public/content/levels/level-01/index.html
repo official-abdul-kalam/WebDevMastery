@@ -1,0 +1,82 @@
+<!-- 
+    LEVEL 1: THE SKELETON (DHANCHA)
+    
+    [ HINDI GUIDE ]
+    Namaste! Ye aapka pehla kadam hai.
+    
+    [ LINKAGE: YE FILE KISSE JUDI HAI? ]
+    1. CSS: Line 25 dekhein. Humne 'style.css' ko link kiya hai.
+    2. JS:  Line 55 dekhein. Humne 'script.js' ko link kiya hai.
+    
+    Bina in links ke, website na sundar dikhegi (No CSS), na kaam karegi (No JS).
+-->
+
+<!-- 
+    1. DOCTYPE
+    Iska matlab: "Browser bhai, mai HTML5 (Latest Version) use kar raha hu."
+-->
+<!DOCTYPE html>
+
+<!-- 
+    2. HTML TAG
+    Ye sabse bada dabba (Root Element) hai. 
+    Puri website iske 'open' (<html>) aur 'close' (</html>) tag ke beech me hoti hai.
+-->
+<html lang="en">
+
+<!-- 
+    3. HEAD TAG (DIMAG)
+    Ye user ko screen par NAHI dikhta.
+    Yaha hum browser ko settings batate hain.
+-->
+
+<head>
+    <meta charset="UTF-8"> <!-- Emojis aur special text support karne ke liye -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile me sahi dikhne ke liye -->
+
+    <title>Mera Pehla Website</title> <!-- Browser Tab ka naam -->
+
+    <!-- 
+        [ IMPORTANT: CSS LINKING ]
+        Ye line sabse zaroori hai design ke liye.
+        href="style.css" ka matlab hai: "Is folder me jo style.css file hai, use padho."
+    -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- 
+    4. BODY TAG (SHAREER)
+    Ye user ko screen par DIKHTA hai.
+    Saara content (Text, Images) yahi aata hai.
+-->
+
+<body>
+
+    <!-- 
+        H1 TAG (Heading)
+        Ye page ka sabse bada title hai.
+        Browser isko automatically bada aur bold dikhata hai.
+    -->
+    <h1>Hello, World!</h1>
+
+    <!-- 
+        P TAG (Paragraph)
+        Normal text likhne ke liye.
+        Browser har <p> tag ke baad thodi jagah (margin) chhod deta hai.
+    -->
+    <p>Ye meri pehli website hai. Mai HTML seekh raha hu!</p>
+
+    <p>HTML haddi (skeleton) hai. CSS kapde (clothes) hain. JavaScript dimag (brain) hai.</p>
+
+    <!-- 
+        [ IMPORTANT: JS LINKING ]
+        Hum script ko hamesha BODY ke END me lagate hain.
+        Kyu? Taaki pehle pura page load ho jaye, fir dimag (JS) chale.
+        Agar pehle JS chala diya, to shayad wo aise elements ko dhunde jo abhi bane hi nahi hain.
+    -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

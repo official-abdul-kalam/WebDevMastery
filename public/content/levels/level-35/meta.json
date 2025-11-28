@@ -1,0 +1,6 @@
+{
+    "title": "Level 35: Error Handling",
+    "badge": "Level 35",
+    "description": "Errors ko gracefully handle karna.",
+    "guide": "<h3>try...catch</h3><p>Code ko crash hone se bachane ke liye.</p><ul><li><code>try { ... }</code>: Isme risky code likho.</li><li><code>catch (error) { ... }</code>: Agar error aaya to yahan handle karo.</li></ul>"
+}

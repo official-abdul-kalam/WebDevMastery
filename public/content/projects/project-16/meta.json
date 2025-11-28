@@ -1,0 +1,6 @@
+{
+    "title": "Project 16: Quiz App",
+    "badge": "Project 16",
+    "description": "MCQ Game.",
+    "guide": "<h3>Project 16: Modules</h3><p>Is project me humne seekha:</p><ul><li><b>Modules</b>: Questions ko alag file me rakhna.</li><li><b>Logic Separation</b>: Data aur Logic ko alag rakhna.</li><li><b>Array Iteration</b>: Questions loop karna.</li></ul>"
+}

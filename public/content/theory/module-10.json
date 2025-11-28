@@ -1,0 +1,23 @@
+{
+    "id": "module-10",
+    "title": "Module 10: Browser APIs & Storage",
+    "description": "Browser APIs ka use karke data store karna aur device features access karna seekhein.",
+    "chapters": [
+        {
+            "title": "Web Storage API",
+            "content": "<p><strong>Web Storage API</strong> humein browser mein data store karne ki suvidha deta hai. Ye do tarah ka hota hai:</p><ul><li><strong>LocalStorage:</strong> Data hamesha ke liye save rehta hai, jab tak delete na kiya jaye. Browser close karne par bhi data nahi jaata.</li><li><strong>SessionStorage:</strong> Data sirf tab tak rehta hai jab tak tab ya browser open hai. Tab close karte hi data delete ho jata hai.</li></ul><pre><code>// LocalStorage\nlocalStorage.setItem('key', 'value');\nlet data = localStorage.getItem('key');\n\n// SessionStorage\nsessionStorage.setItem('key', 'value');</code></pre>"
+        },
+        {
+            "title": "Cookies",
+            "content": "<p><strong>Cookies</strong> chote text files hote hain jo browser mein save hote hain. Inka use mostly user tracking, authentication, aur preferences save karne ke liye hota hai. Cookies ke saath hum expiry date bhi set kar sakte hain.</p><pre><code>document.cookie = 'username=John; expires=Thu, 18 Dec 2025 12:00:00 UTC';</code></pre>"
+        },
+        {
+            "title": "Geolocation API",
+            "content": "<p><strong>Geolocation API</strong> ka use karke hum user ki current location (latitude aur longitude) pata kar sakte hain. Iske liye user ki permission zaroori hoti hai.</p><pre><code>navigator.geolocation.getCurrentPosition((position) => {\n  console.log(position.coords.latitude);\n});</code></pre>"
+        },
+        {
+            "title": "Notification API",
+            "content": "<p><strong>Notification API</strong> se hum user ko system-level notifications bhej sakte hain, bhale hi wo doosre tab mein ho. Pehle permission leni padti hai.</p><pre><code>Notification.requestPermission().then(permission => {\n  if (permission === 'granted') {\n    new Notification('Hello!');\n  }\n});</code></pre>"
+        }
+    ]
+}

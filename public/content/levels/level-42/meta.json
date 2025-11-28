@@ -1,0 +1,6 @@
+{
+    "title": "Level 42: Prototypes",
+    "badge": "Level 42",
+    "description": "Objects ki virasat.",
+    "guide": "<h3>Prototype Chain</h3><p>Agar object ke paas koi property nahi milti, to JS uske parent (prototype) ke paas dhoondhta hai.</p><ul><li><code>Object.create()</code>: Prototype set karne ka tareeka.</li></ul>"
+}

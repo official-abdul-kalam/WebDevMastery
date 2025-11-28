@@ -1,0 +1,65 @@
+<!-- 
+    PROJECT 1: PERSONAL PORTFOLIO
+    
+    [ LOGIC: STRUCTURE ]
+    Ye page 4 hisson me bata hua hai:
+    1. Header (Naam aur Intro)
+    2. About (Mere baare me)
+    3. Skills (Jo mujhe aata hai)
+    4. Footer (Contact info)
+    
+    Humne 'box' class use ki hai taaki sections sundar dikhein.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mera Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <div class="header">
+        <h1>Namaste, Mai Abdul hu! 👋</h1>
+        <p>Mai ek <b>Web Developer</b> banne ki raah par hu.</p>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="section box">
+        <h2>Mere Baare Me (About Me)</h2>
+        <p>
+            Mujhe coding karna pasand hai. Maine HTML aur CSS seekh liya hai.
+            Ab mai projects bana raha hu taaki meri practice ho sake.
+        </p>
+    </div>
+
+    <!-- SKILLS SECTION -->
+    <div class="section box">
+        <h2>Meri Skills</h2>
+
+        <!-- 
+            [ LOGIC: MULTIPLE CLASSES ]
+            Humne yaha 2 classes di hain: "skill" aur "html".
+            "skill": Sabhi skills ka shape same karega.
+            "html": Sirf iska rang orange karega.
+        -->
+        <p class="skill html">HTML5</p>
+        <p class="skill css">CSS3</p>
+        <p class="skill js">JavaScript (Basic)</p>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div class="footer">
+        <p>Contact karein: email@example.com</p>
+        <button onclick="sayThanks()">Hire Me!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

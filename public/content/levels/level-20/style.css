@@ -1,0 +1,54 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2d2d2d;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 400px;
+    border: 1px solid #444;
+}
+
+.controls {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-add {
+    background-color: #27c93f;
+}
+
+.btn-remove {
+    background-color: #ff5f56;
+}
+
+#cartDisplay {
+    background-color: #111;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 50px;
+    color: #aaa;
+}

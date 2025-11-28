@@ -1,0 +1,6 @@
+{
+    "title": "Project 17: Typing Test",
+    "badge": "Project 17",
+    "description": "WPM Calculator.",
+    "guide": "<h3>Project 17: Logic</h3><p>Is project me humne seekha:</p><ul><li><b>String Manipulation</b>: Text ko spans me todna.</li><li><b>Event Handling</b>: Input event par real-time checking.</li><li><b>Math</b>: WPM calculation logic.</li></ul>"
+}

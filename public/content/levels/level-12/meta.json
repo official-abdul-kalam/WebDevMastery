@@ -1,0 +1,6 @@
+{
+    "title": "Level 12: Input Types",
+    "badge": "Level 12",
+    "description": "Text ke alawa bhi bohot kuch hota hai.",
+    "guide": "<h3>Special Inputs</h3><ul><li><b>Radio</b>: Group me se ek select karna (Gender).</li><li><b>Checkbox</b>: Ek se zyada select karna (Hobbies).</li><li><b>Date</b>: Calendar khul jata hai.</li><li><b>Color</b>: Color picker khul jata hai.</li></ul>"
+}

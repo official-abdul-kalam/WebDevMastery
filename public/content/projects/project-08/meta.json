@@ -1,0 +1,6 @@
+{
+    "title": "Project 8: Quote Generator",
+    "badge": "Project 8",
+    "description": "Random Quotes with Multi-Page Layout.",
+    "guide": "<h3>Project 8: Quote Generator</h3><p>Is project me humne seekha:</p><ul><li><b>Objects in Arrays</b>: <code>{ text: '...', author: '...' }</code>.</li><li><b>Math.random()</b>: Random number kaise generate karein.</li><li><b>Multi-Page</b>: Navigation bar ka use karke pages link karna.</li></ul>"
+}

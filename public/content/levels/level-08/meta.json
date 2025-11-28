@@ -1,0 +1,6 @@
+{
+    "title": "Level 8: Lists & Tables",
+    "badge": "Level 8",
+    "description": "Data ko organize karna seekhein (Lists aur Tables ke saath).",
+    "guide": "<h3>Lists & Tables</h3><p>Is level me hum seekhenge:</p><ul><li><b>UL (Unordered List)</b>: Bullet points ke liye.</li><li><b>OL (Ordered List)</b>: 1, 2, 3 numbering ke liye.</li><li><b>Table</b>: Rows aur Columns me data dikhane ke liye.</li></ul><p>Code dekhein aur samjhein ki <code>&lt;tr&gt;</code> aur <code>&lt;td&gt;</code> kaise kaam karte hain.</p>"
+}

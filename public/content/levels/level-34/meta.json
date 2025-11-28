@@ -1,0 +1,6 @@
+{
+    "title": "Level 34: Async/Await",
+    "badge": "Level 34",
+    "description": "Promises ka aasaan tareeka.",
+    "guide": "<h3>Async/Await</h3><p>Ye code ko synchronous (line-by-line) jaisa dikhata hai.</p><ul><li><code>async</code>: Function ko async banata hai.</li><li><code>await</code>: Promise resolve hone ka wait karta hai.</li></ul>"
+}

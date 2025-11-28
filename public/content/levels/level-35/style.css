@@ -1,0 +1,35 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2d2d2d;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 300px;
+    border: 1px solid #444;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.error-box {
+    background: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+    padding: 15px;
+    border: 1px solid #e74c3c;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}

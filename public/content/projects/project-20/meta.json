@@ -1,0 +1,7 @@
+{
+    "id": "project-20",
+    "title": "Location Logger",
+    "badge": "Geo + Storage",
+    "description": "Create a check-in app that logs your location history.",
+    "guide": "This project combines the Geolocation API with LocalStorage. We fetch the user's coordinates and save them along with a timestamp to LocalStorage, creating a persistent history of check-ins."
+}

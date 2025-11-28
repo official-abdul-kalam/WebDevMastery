@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+p {
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.primary-btn {
+    background: #3498db;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: #2980b9;
+}
+
+.secondary-btn {
+    background: #ecf0f1;
+    color: #7f8c8d;
+}
+
+.secondary-btn:hover {
+    background: #bdc3c7;
+}
+
+.status {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.status.success {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status.error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.status.loading {
+    background: #e2e3e5;
+    color: #383d41;
+}
+
+.hidden {
+    display: none;
+}
+
+.history-container h3 {
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.coords {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.timestamp {
+    font-size: 0.75rem;
+    color: #999;
+    display: block;
+    margin-top: 4px;
+}
+
+.map-link {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.map-link:hover {
+    text-decoration: underline;
+}
+
+.empty-msg {
+    text-align: center;
+    color: #bdc3c7;
+    font-style: italic;
+    margin-top: 20px;
+}

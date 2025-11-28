@@ -1,0 +1,6 @@
+{
+    "title": "Level 20: Array Methods",
+    "badge": "Level 20",
+    "description": "List ko edit karna (Add/Remove).",
+    "guide": "<h3>Methods Kya Hain?</h3><p>Arrays ke paas built-in tools hote hain.</p><ul><li><code>push('Item')</code>: List ke end me item jodta hai.</li><li><code>pop()</code>: List ke end se item nikalta hai.</li><li><code>join(' | ')</code>: List ko sundar text me badalta hai.</li></ul>"
+}

@@ -1,0 +1,5 @@
+{
+    "title": "Level 5: Interaction (JavaScript)",
+    "description": "Website ko zinda (alive) kaise banayein.",
+    "guide": "<h3>Level 5: JavaScript</h3><p>HTML haddi hai, CSS kapde hain, aur <b>JavaScript dimag hai</b>.</p><p>Hum seekhenge:</p><ul><li><b>onclick</b>: Jab user click kare to kya ho.</li><li><b>alert()</b>: Popup message dikhana.</li><li><b>DOM</b>: HTML ko JavaScript se change karna.</li></ul>"
+}

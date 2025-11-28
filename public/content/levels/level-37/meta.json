@@ -1,0 +1,6 @@
+{
+    "title": "Level 37: Destructuring",
+    "badge": "Level 37",
+    "description": "Data nikalne ka smart tareeka.",
+    "guide": "<h3>Destructuring {}</h3><p>Objects ya Arrays se values ko variables me store karna.</p><ul><li><code>const { name, age } = user;</code></li><li><code>const [first, second] = list;</code></li></ul>"
+}

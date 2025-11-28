@@ -1,0 +1,6 @@
+{
+    "title": "Project 10: Stopwatch",
+    "badge": "Project 10",
+    "description": "Timer control karna (Start/Stop).",
+    "guide": "<h3>Project 10: Stopwatch</h3><p>Is project me humne seekha:</p><ul><li><b>clearInterval</b>: Timer ko rokna.</li><li><b>State Management</b>: <code>isRunning</code> variable se track karna ki timer chal raha hai ya nahi.</li><li><b>Logic</b>: Seconds ko Minutes me badalna.</li></ul>"
+}

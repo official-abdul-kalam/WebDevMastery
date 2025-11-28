@@ -1,0 +1,86 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-card {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.header h2 {
+    margin-top: 0;
+    color: #ffbd2e;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 2px solid #ffbd2e;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-op {
+    padding: 15px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.btn-op:active {
+    transform: scale(0.95);
+}
+
+.btn-op:hover {
+    background-color: #005f9e;
+}
+
+.result-area {
+    margin-top: 30px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.result-area p {
+    margin: 0;
+    color: #888;
+}
+
+.result-area h1 {
+    margin: 5px 0 0 0;
+    color: #27c93f;
+    font-size: 2.5rem;
+}

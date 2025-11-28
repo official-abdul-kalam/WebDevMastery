@@ -1,0 +1,6 @@
+{
+    "title": "Level 19: Arrays",
+    "badge": "Level 19",
+    "description": "Lists banana (Jaise Shopping List).",
+    "guide": "<h3>Arrays Kya Hain?</h3><p>Arrays ek special variable hain jo ek saath kai values hold kar sakte hain.</p><ul><li><code>[]</code>: Array banane ke liye.</li><li><code>Index</code>: Position (0 se shuru hoti hai).</li><li><code>length</code>: Array me kitne items hain.</li></ul>"
+}

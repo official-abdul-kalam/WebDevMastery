@@ -1,0 +1,32 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2d2d2d;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 300px;
+    border: 1px solid #444;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.output {
+    margin-top: 20px;
+    font-style: italic;
+    color: #f1c40f;
+}

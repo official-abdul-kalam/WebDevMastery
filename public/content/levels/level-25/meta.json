@@ -1,0 +1,6 @@
+{
+    "title": "Level 25: Removing Elements",
+    "badge": "Level 25",
+    "description": "Element ko delete karna.",
+    "guide": "<h3>remove()</h3><p>Kisi bhi element ko hatane ke liye:</p><ul><li><code>element.remove()</code>: Seedha hata do.</li><li><code>parent.removeChild(child)</code>: Purana tareeka.</li></ul>"
+}

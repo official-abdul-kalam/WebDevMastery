@@ -1,0 +1,7 @@
+{
+    "id": "level-46",
+    "title": "LocalStorage",
+    "badge": "Storage",
+    "description": "Learn to save data permanently in the browser using LocalStorage.",
+    "guide": "LocalStorage allows you to store key-value pairs in the browser. Data persists even after the browser is closed and reopened. Use `setItem`, `getItem`, and `removeItem` to manage data."
+}

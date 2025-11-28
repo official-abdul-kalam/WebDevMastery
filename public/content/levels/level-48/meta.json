@@ -1,0 +1,7 @@
+{
+    "id": "level-48",
+    "title": "Cookies",
+    "badge": "Storage",
+    "description": "Learn to use Cookies for storing user preferences with expiration dates.",
+    "guide": "Cookies are small data strings sent between the server and browser. They are often used for authentication and preferences. Unlike Storage APIs, cookies can have an expiration date."
+}

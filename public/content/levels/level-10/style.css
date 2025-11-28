@@ -1,0 +1,48 @@
+/* Body Styling */
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+    padding: 20px;
+}
+
+/* Flex Container */
+.flex-box {
+    display: flex;
+
+    /* HORIZONTAL ALIGNMENT (X-Axis) */
+    /* Options: flex-start, center, flex-end, space-between, space-around */
+    justify-content: center;
+
+    /* VERTICAL ALIGNMENT (Y-Axis) */
+    /* Options: flex-start, center, flex-end, stretch */
+    align-items: center;
+
+    /* Container Size */
+    height: 300px;
+    border: 2px dashed #007acc;
+    background-color: #252526;
+    margin-bottom: 20px;
+}
+
+/* Child Items */
+.item {
+    width: 80px;
+    height: 80px;
+    background-color: #ff5f56;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.item:nth-child(2) {
+    background-color: #ffbd2e;
+}
+
+.item:nth-child(3) {
+    background-color: #27c93f;
+}

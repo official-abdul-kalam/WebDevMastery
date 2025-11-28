@@ -1,0 +1,6 @@
+{
+    "title": "Level 33: Fetch API",
+    "badge": "Level 33",
+    "description": "Internet se data lana.",
+    "guide": "<h3>fetch()</h3><p>Browser ka inbuilt tool data lane ke liye.</p><ul><li><code>fetch(url)</code>: Request bhejo.</li><li><code>.then(res => res.json())</code>: Response ko padhne layak banao.</li><li><code>.then(data => ...)</code>: Data use karo.</li></ul>"
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 14: Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Form Validation</h1>
+        <p>Galat data rokne ka tareeka.</p>
+
+        <form>
+
+            <!-- REQUIRED: Iske bina form submit nahi hoga -->
+            <div class="input-group">
+                <label>Username (Required)</label>
+                <input type="text" required placeholder="Zaroori hai">
+            </div>
+
+            <!-- MINLENGTH: Kam se kam 5 letters -->
+            <div class="input-group">
+                <label>Password (Min 5 chars)</label>
+                <input type="password" minlength="5" required placeholder="********">
+            </div>
+
+            <!-- TYPE EMAIL: @ hona zaroori hai -->
+            <div class="input-group">
+                <label>Email (Must have @)</label>
+                <input type="email" required placeholder="name@example.com">
+            </div>
+
+            <!-- NUMBER: Sirf numbers -->
+            <div class="input-group">
+                <label>Age (18-100)</label>
+                <input type="number" min="18" max="100" placeholder="18+">
+            </div>
+
+            <button type="submit">Try Submit</button>
+        </form>
+
+        <p class="note">Submit button daba kar dekho bina details bhare!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

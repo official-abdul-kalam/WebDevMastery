@@ -1,0 +1,56 @@
+/* 
+    LEVEL 2: CSS
+    
+    [ LOGIC ]
+    Hum har heading tag (h1, h2...) ko alag rang denge.
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* 
+    H1 SELECTOR
+    Sirf <h1> tag par asar karega.
+*/
+h1 {
+    color: red;
+    /* Laal */
+    text-transform: uppercase;
+    /* Saare letters CAPITAL kar do */
+}
+
+/* 
+    H2 SELECTOR
+    Sirf <h2> tag par asar karega.
+*/
+h2 {
+    color: orange;
+    /* Santri */
+    border-bottom: 2px solid orange;
+    /* Neeche ek line bana do */
+}
+
+h3 {
+    color: gold;
+}
+
+/* Sunehra */
+h4 {
+    color: green;
+}
+
+/* Hara */
+h5 {
+    color: blue;
+}
+
+/* Neela */
+h6 {
+    color: purple;
+}
+
+/* Jamuni */

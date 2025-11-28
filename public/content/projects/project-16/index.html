@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 16: Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="quiz-card">
+            <div id="quiz-container">
+                <h2 id="question">Question Text</h2>
+                <div id="options" class="options-grid">
+                    <!-- Options here -->
+                </div>
+            </div>
+
+            <div id="result-container" style="display: none;">
+                <h2>Quiz Completed! 🏆</h2>
+                <p>Your Score: <span id="score">0</span></p>
+                <button onclick="location.reload()">Play Again</button>
+            </div>
+
+            <div class="footer">
+                <span id="progress">Question 1/5</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Module Type Important -->
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

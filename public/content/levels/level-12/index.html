@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 12: Input Types</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Input Types</h1>
+        <p>Alag-alag tarah ka data.</p>
+
+        <div class="form-card">
+
+            <!-- 1. RADIO BUTTONS (Ek hi select hoga) -->
+            <div class="section">
+                <h3>Gender (Radio)</h3>
+                <!-- 'name' same hona chahiye taaki group bane -->
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+            </div>
+
+            <!-- 2. CHECKBOXES (Multiple select honge) -->
+            <div class="section">
+                <h3>Hobbies (Checkbox)</h3>
+                <label><input type="checkbox"> Coding</label>
+                <label><input type="checkbox"> Gaming</label>
+                <label><input type="checkbox"> Music</label>
+            </div>
+
+            <!-- 3. SPECIAL INPUTS -->
+            <div class="section">
+                <h3>Special Inputs</h3>
+
+                <label>Date of Birth:</label>
+                <input type="date">
+
+                <label style="margin-top: 10px;">Favorite Color:</label>
+                <input type="color">
+
+                <label style="margin-top: 10px;">Volume (Range):</label>
+                <input type="range">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+{
+    "title": "Project 7: To-Do List",
+    "badge": "Project 7",
+    "description": "Multi-Page App with Arrays & Loops.",
+    "guide": "<h3>Project 7: Task Manager</h3><p>Is project me humne seekha:</p><ul><li><b>Multi-Page</b>: <code>index.html</code> aur <code>about.html</code> ko link karna.</li><li><b>Arrays</b>: Tasks ko store karna.</li><li><b>Loops</b>: Array se data lekar list banana.</li><li><b>Splice</b>: Array se item delete karna.</li></ul>"
+}

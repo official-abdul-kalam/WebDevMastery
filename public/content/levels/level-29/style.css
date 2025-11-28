@@ -1,0 +1,30 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #2d2d2d;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 300px;
+    border: 1px solid #444;
+}
+
+.key-box {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00d2ff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#codeDisplay {
+    color: #888;
+}

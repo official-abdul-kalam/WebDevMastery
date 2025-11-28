@@ -1,0 +1,6 @@
+{
+    "title": "Level 16: JS Functions",
+    "badge": "Level 16",
+    "description": "Code ki Reusability (Baar-baar use karna).",
+    "guide": "<h3>Functions Kya Hain?</h3><p>Functions ek machine ki tarah hote hain. Aap unhe input (Parameter) dete hain, aur wo kaam karke dete hain.</p><p>Example: <code>sayHello('Rahul')</code> me 'Rahul' input hai.</p>"
+}

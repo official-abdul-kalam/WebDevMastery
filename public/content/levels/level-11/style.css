@@ -1,0 +1,72 @@
+/* Body Styling */
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form Card */
+.form-card {
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #444;
+}
+
+/* Form Group (Label + Input) */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    /* New line par laye */
+    margin-bottom: 0.5rem;
+    color: #a0a0b0;
+}
+
+/* Input Styling */
+input {
+    width: 100%;
+    /* Poori choudai */
+    padding: 10px;
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Padding ko width me include kare */
+}
+
+input:focus {
+    border-color: #007acc;
+    /* Click karne par blue border */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #005f9e;
+    /* Hover par dark blue */
+}

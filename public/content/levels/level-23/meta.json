@@ -1,0 +1,6 @@
+{
+    "title": "Level 23: Changing Styles",
+    "badge": "Level 23",
+    "description": "CSS Classes ko Add/Remove karna.",
+    "guide": "<h3>classList</h3><p>Direct <code>style.color</code> use karne se behtar hai CSS classes badalna.</p><ul><li><code>classList.add('class')</code>: Class lagao.</li><li><code>classList.remove('class')</code>: Class hatao.</li><li><code>classList.toggle('class')</code>: On/Off switch ki tarah.</li></ul>"
+}

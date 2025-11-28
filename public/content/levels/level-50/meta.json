@@ -1,0 +1,7 @@
+{
+    "id": "level-50",
+    "title": "Notification API",
+    "badge": "Device",
+    "description": "Learn to send system-level notifications to the user.",
+    "guide": "The Notification API allows web apps to display notifications outside the browser viewport. You must always request permission first using `Notification.requestPermission()`."
+}

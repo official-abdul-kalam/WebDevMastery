@@ -1,0 +1,6 @@
+{
+    "title": "Level 13: CSS for Forms",
+    "badge": "Level 13",
+    "description": "Forms ko boring se beautiful banana.",
+    "guide": "<h3>Styling Tips</h3><ul><li><b>Padding</b>: Input text ko border se door rakhta hai.</li><li><b>Border-Radius</b>: Konon ko gol karta hai.</li><li><b>:focus</b>: Ye tab chalta hai jab user input par click karta hai. Isse hum user ko bata sakte hain ki wo kahan likh raha hai.</li></ul>"
+}

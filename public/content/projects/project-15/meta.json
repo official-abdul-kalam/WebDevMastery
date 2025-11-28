@@ -1,0 +1,6 @@
+{
+    "title": "Project 15: Memory Game",
+    "badge": "Project 15",
+    "description": "Dimaag tez karne wala game.",
+    "guide": "<h3>Project 15: OOP Game</h3><p>Is project me humne seekha:</p><ul><li><b>Classes</b>: Game logic ko ek Class me encapsulate karna.</li><li><b>State Management</b>: Moves, Flipped Cards, aur Matches ko track karna.</li><li><b>Grid Layout</b>: Cards ko grid me dikhana.</li></ul>"
+}

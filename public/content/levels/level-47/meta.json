@@ -1,0 +1,7 @@
+{
+    "id": "level-47",
+    "title": "SessionStorage",
+    "badge": "Storage",
+    "description": "Understand temporary storage with SessionStorage.",
+    "guide": "SessionStorage works like LocalStorage but clears data when the page session ends (when the tab is closed). Useful for temporary data like shopping cart contents during a single visit."
+}

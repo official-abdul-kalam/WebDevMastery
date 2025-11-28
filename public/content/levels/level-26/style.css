@@ -1,0 +1,31 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.parent {
+    background-color: #ff5f56;
+    width: 300px;
+}
+
+.child {
+    background-color: #ffbd2e;
+    width: 150px;
+    color: #333;
+    font-weight: bold;
+}
+
+.box:active {
+    transform: scale(0.98);
+}

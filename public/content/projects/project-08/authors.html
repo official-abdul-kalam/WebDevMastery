@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors - QuoteGen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">💬 QuoteGen</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Generator</a></li>
+            <li><a href="authors.html" class="active">Authors</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Featured Authors</h1>
+        <p>Wise minds featured in our collection.</p>
+
+        <div class="authors-grid" id="authorsList">
+            <!-- Authors JS se aayenge -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Sirf is page ke liye alag script run karte hain
+        // (Ya main script me check kar sakte hain, par ye simple hai)
+        window.onload = function () {
+            renderAuthors();
+        }
+    </script>
+</body>
+
+</html>

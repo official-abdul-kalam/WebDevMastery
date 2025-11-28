@@ -1,0 +1,19 @@
+{
+    "id": 2,
+    "title": "Module 2: Layouts & Data",
+    "description": "Ab hum seekhenge ki cheezon ko sahi jagah par kaise rakhein aur data kaise dikhayein.",
+    "chapters": [
+        {
+            "title": "1. Block vs Inline Elements",
+            "content": "<p>HTML me do tarah ke elements hote hain:</p><ul><li><b>Block Elements</b>: Ye poori line lete hain. (Jaise <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>). Inke bagal me koi nahi aa sakta.</li><li><b>Inline Elements</b>: Ye sirf utni jagah lete hain jitni zaroorat hai. (Jaise <code>&lt;span&gt;</code>, <code>&lt;b&gt;</code>, <code>&lt;a&gt;</code>). Ye ek line me chipak kar aa sakte hain.</li></ul>"
+        },
+        {
+            "title": "2. Lists & Tables (Data)",
+            "content": "<p>Jab humein bohot saara data dikhana ho, to hum Lists ya Tables use karte hain.</p><h3>Lists:</h3><p>Point-wise data ke liye.</p><ul><li><b>UL (Unordered)</b>: Bullet points.</li><li><b>OL (Ordered)</b>: Numbering (1, 2, 3).</li></ul><h3>Tables:</h3><p>Excel jaisa data (Rows aur Columns) dikhane ke liye <code>&lt;table&gt;</code> use hota hai.</p>"
+        },
+        {
+            "title": "3. Flexbox (Layout Ka Jadugar)",
+            "content": "<p>Pehle elements ko bagal-bagal me lana bohot mushkil tha. Phir aaya <b>Flexbox</b>.</p><p>Bas parent ko bolo <code>display: flex;</code> aur saare bacche (children) ek line me aa jayenge.</p><div class='note'><strong>Pro Tip:</strong> Flexbox sirf 1D layout (ek line) ke liye best hai. Complex grids ke liye hum aage Grid seekhenge.</div>"
+        }
+    ]
+}

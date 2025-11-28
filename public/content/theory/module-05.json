@@ -1,0 +1,19 @@
+{
+    "id": 5,
+    "title": "Module 5: DOM Manipulation",
+    "description": "HTML ko JavaScript se control karna.",
+    "chapters": [
+        {
+            "title": "1. What is DOM?",
+            "content": "<p><b>DOM (Document Object Model)</b> aapke HTML page ka ek naksha (map) hai. JavaScript is nakshay ko padh kar page badal sakti hai.</p>"
+        },
+        {
+            "title": "2. Selecting Elements",
+            "content": "<p>Element ko pakadne ke tareeke:</p><ul><li><code>getElementById('id')</code>: ID se pakdo.</li><li><code>querySelector('.class')</code>: Class ya Tag se pakdo.</li></ul>"
+        },
+        {
+            "title": "3. Events",
+            "content": "<p>Jab user kuch karta hai (Click, Type, Mouse Move), use <b>Event</b> kehte hain.</p><p><code>addEventListener('click', function)</code> sabse badhiya tareeka hai.</p>"
+        }
+    ]
+}

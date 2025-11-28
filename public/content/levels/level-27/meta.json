@@ -1,0 +1,6 @@
+{
+    "title": "Level 27: Local Storage",
+    "badge": "Level 27",
+    "description": "Browser me data save karna.",
+    "guide": "<h3>localStorage</h3><p>Ye data tab tak rehta hai jab tak user delete na kare.</p><ul><li><code>setItem(key, value)</code>: Save karo.</li><li><code>getItem(key)</code>: Wapas lao.</li><li><code>removeItem(key)</code>: Delete karo.</li></ul>"
+}

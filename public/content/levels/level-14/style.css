@@ -1,0 +1,52 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d2d2d;
+    border: 2px solid #444;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* VALIDATION STYLING */
+
+/* Agar input sahi hai to Green border */
+input:valid {
+    border-color: #27c93f;
+}
+
+/* Agar input galat hai to Red border */
+input:invalid {
+    border-color: #ff5f56;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}

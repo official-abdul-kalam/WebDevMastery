@@ -1,0 +1,6 @@
+{
+    "title": "Project 18: Infinite Scroll",
+    "badge": "Project 18",
+    "description": "Scroll karte raho.",
+    "guide": "<h3>Project 18: Scroll Event</h3><p>Is project me humne seekha:</p><ul><li><b>Scroll Detection</b>: <code>scrollTop + clientHeight >= scrollHeight</code> formula.</li><li><b>Dynamic Loading</b>: Naya content fetch karke append karna.</li></ul>"
+}

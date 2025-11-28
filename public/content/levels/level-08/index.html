@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 8: Lists & Tables</title>
+    <!-- CSS file ko link kar rahe hain -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Lists & Tables</h1>
+        <p>Data ko organize karne ke tareeke.</p>
+
+        <!-- 1. UNORDERED LIST (Bullet Points) -->
+        <!-- 'ul' ka matlab Unordered List. Isme koi number nahi hota. -->
+        <div class="card">
+            <h2>Shopping List (UL)</h2>
+            <ul>
+                <!-- 'li' ka matlab List Item. Har point ek 'li' hota hai. -->
+                <li>Doodh (Milk)</li>
+                <li>Ande (Eggs)</li>
+                <li>Bread</li>
+            </ul>
+        </div>
+
+        <!-- 2. ORDERED LIST (Numbering) -->
+        <!-- 'ol' ka matlab Ordered List. Isme 1, 2, 3 aata hai. -->
+        <div class="card">
+            <h2>Top 3 Programming Languages (OL)</h2>
+            <ol>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ol>
+        </div>
+
+        <!-- 3. TABLE (Rows & Columns) -->
+        <!-- 'table' tag se table shuru hoti hai. -->
+        <div class="card">
+            <h2>Student Marks (Table)</h2>
+            <table>
+                <!-- 'thead' me table ki heading hoti hai -->
+                <thead>
+                    <tr> <!-- 'tr' = Table Row (Ek line) -->
+                        <th>Name</th> <!-- 'th' = Table Heading (Bold text) -->
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <!-- 'tbody' me asli data hota hai -->
+                <tbody>
+                    <tr>
+                        <td>Rahul</td> <!-- 'td' = Table Data (Normal text) -->
+                        <td>Maths</td>
+                        <td>95</td>
+                    </tr>
+                    <tr>
+                        <td>Priya</td>
+                        <td>Science</td>
+                        <td>98</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- JavaScript file ko link kar rahe hain -->
+    <script src="script.js"></script>
+</body>
+
+</html>

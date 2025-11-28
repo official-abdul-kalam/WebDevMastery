@@ -1,0 +1,5 @@
+{
+    "title": "Level 1: The Skeleton (HTML Basics)",
+    "description": "HTML kya hai aur kaise kaam karta hai.",
+    "guide": "<h3>Namaste! Level 1 me swagat hai.</h3><p>Aaj hum website ka <b>Skeleton (Dhancha)</b> banayenge. Jaise insaan ke andar haddiyan (bones) hoti hain, waise hi website ke andar <b>HTML</b> hota hai.</p><p><b>HTML</b> ka matlab hai <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage.</p><h4>Aapka Mission:</h4><p>Code me likhe hue <b>Comments</b> ko dhyan se padhein. Har line ka matlab Hindi me samjhaya gaya hai!</p>"
+}

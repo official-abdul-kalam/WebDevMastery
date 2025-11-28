@@ -1,0 +1,19 @@
+{
+    "id": 8,
+    "title": "Module 8: ES6+ & Modern JS",
+    "description": "JavaScript ka naya aur behtar roop.",
+    "chapters": [
+        {
+            "title": "1. Arrow Functions",
+            "content": "<p>Functions likhne ka chhota tareeka.</p><ul><li><code>const add = (a, b) => a + b;</code></li></ul>"
+        },
+        {
+            "title": "2. Destructuring",
+            "content": "<p>Objects aur Arrays se data nikalne ka aasaan tareeka.</p><ul><li><code>const { name } = user;</code></li></ul>"
+        },
+        {
+            "title": "3. Modules & Classes",
+            "content": "<p>Code ko alag files me todna aur OOP use karna.</p>"
+        }
+    ]
+}

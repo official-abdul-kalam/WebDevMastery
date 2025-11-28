@@ -1,0 +1,54 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-card {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #444;
+}
+
+.section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+h3 {
+    color: #007acc;
+    margin-top: 0;
+}
+
+/* Radio & Checkbox Styling */
+/* Inko bada dikhane ke liye scale use kar rahe hain */
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+/* Range Slider */
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}

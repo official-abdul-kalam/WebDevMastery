@@ -1,0 +1,63 @@
+/* 
+    LEVEL 3: CSS COLORS
+    
+    [ LOGIC: CLASS SELECTOR ]
+    CSS me Class ko select karne ke liye hum DOT (.) lagate hain.
+    Example: .box
+*/
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #222;
+    /* Dark Background */
+}
+
+/* 
+    .box CLASS
+    Ye saare boxes par lagega (Red, Blue, Green sab par).
+    Isse sabka shape same ho jayega.
+*/
+.box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* Kinaro ko ghumavdar (rounded) banao */
+    text-align: center;
+    color: white;
+    /* Text safed kar do */
+}
+
+/* 
+    NAMED COLORS
+    Hum seedha rang ka naam likh sakte hain.
+*/
+.red-box {
+    background-color: red;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+/* 
+    RGB COLORS
+    rgb(Red, Green, Blue)
+    Har value 0 se 255 tak hoti hai.
+*/
+.green-box {
+    background-color: rgb(0, 255, 0);
+    /* Full Green */
+    color: black;
+    /* Green par black text acha dikhta hai */
+}
+
+/* 
+    HEX CODES
+    Ye sabse professional tarika hai.
+    # ke baad 6 numbers/letters hote hain.
+*/
+.hex-box {
+    background-color: #800080;
+    /* Purple ka code */
+}

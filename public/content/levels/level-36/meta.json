@@ -1,0 +1,6 @@
+{
+    "title": "Level 36: Arrow Functions",
+    "badge": "Level 36",
+    "description": "Functions ka modern syntax.",
+    "guide": "<h3>Arrow Functions =></h3><p>Ye functions likhne ka chhota tareeka hai.</p><ul><li><code>const hello = () => 'Hello';</code></li><li>Agar ek hi line hai to <code>return</code> likhne ki zaroorat nahi.</li></ul>"
+}

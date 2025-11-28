@@ -1,0 +1,6 @@
+{
+    "title": "Level 45: Currying",
+    "badge": "Level 45",
+    "description": "Functions ki chain.",
+    "guide": "<h3>Currying</h3><p>Ek function jo multiple arguments lene ki bajaye, ek-ek karke arguments leta hai aur naya function return karta hai.</p>"
+}

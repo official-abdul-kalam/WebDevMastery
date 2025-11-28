@@ -1,0 +1,19 @@
+{
+    "id": 6,
+    "title": "Module 6: Advanced DOM",
+    "description": "Browser ki memory aur advanced events.",
+    "chapters": [
+        {
+            "title": "1. Event Bubbling",
+            "content": "<p>Jab aap kisi element par click karte hain, to wo click uske parent par bhi jaata hai. Ise <b>Bubbling</b> kehte hain.</p>"
+        },
+        {
+            "title": "2. Local Storage",
+            "content": "<p>Browser ke paas ek chhota sa database hota hai. Page refresh hone par bhi data save rehta hai.</p><ul><li><code>localStorage.setItem('key', 'value')</code></li><li><code>localStorage.getItem('key')</code></li></ul>"
+        },
+        {
+            "title": "3. JSON",
+            "content": "<p>Data ko text me badalne ke liye JSON use hota hai.</p><ul><li><code>JSON.stringify()</code>: Object -> Text</li><li><code>JSON.parse()</code>: Text -> Object</li></ul>"
+        }
+    ]
+}

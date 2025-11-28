@@ -1,0 +1,6 @@
+{
+    "title": "Level 22: Events",
+    "badge": "Level 22",
+    "description": "User ke actions par react karna.",
+    "guide": "<h3>addEventListener</h3><p>HTML me <code>onclick</code> likhne se behtar hai JS me listener lagana.</p><ul><li><code>click</code>: Button dabane par.</li><li><code>mouseover</code>: Mouse upar laane par.</li><li><code>input</code>: Type karne par.</li></ul>"
+}

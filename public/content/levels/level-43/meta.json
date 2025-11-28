@@ -1,0 +1,6 @@
+{
+    "title": "Level 43: The 'this' Keyword",
+    "badge": "Level 43",
+    "description": "Context ka reference.",
+    "guide": "<h3>this</h3><p>Ye current object ko refer karta hai.</p><ul><li>Event Listener me: <code>this</code> = Element jispar click hua.</li><li>Object Method me: <code>this</code> = Wo Object.</li><li>Arrow Function me: <code>this</code> parent scope se aata hai.</li></ul>"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "Level 9: Flexbox Basics",
+    "badge": "Level 9",
+    "description": "Elements ko control karne ka sabse powerful tool.",
+    "guide": "<h3>Flexbox Kya Hai?</h3><p>Flexbox ek jaadu hai jo elements ko <b>Row</b> (Line) ya <b>Column</b> (Khamba) me arrange karta hai.</p><p>Bas Parent ko bolo <code>display: flex;</code> aur dekho kamaal!</p><p><b>Experiment:</b> CSS me <code>flex-direction: row;</code> ko hatakar <code>column</code> likho.</p>"
+}

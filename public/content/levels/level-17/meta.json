@@ -1,0 +1,6 @@
+{
+    "title": "Level 17: If/Else Logic",
+    "badge": "Level 17",
+    "description": "Conditions lagana (Agar ye, to wo).",
+    "guide": "<h3>Decision Making</h3><p>Programming me humein aksar conditions check karni padti hain.</p><ul><li><code>if (condition) { ... }</code>: Agar shart manzoor hai to ye karo.</li><li><code>else { ... }</code>: Agar nahi, to ye karo.</li><li><code>>=</code>: Bada ya barabar.</li><li><code>%</code>: Remainder (Shesh) nikalne ke liye.</li></ul>"
+}

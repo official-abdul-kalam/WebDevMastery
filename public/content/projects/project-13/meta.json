@@ -1,0 +1,6 @@
+{
+    "title": "Project 13: Weather App",
+    "badge": "Project 13",
+    "description": "Live Weather Data fetch karna.",
+    "guide": "<h3>Project 13: API Integration</h3><p>Is project me humne seekha:</p><ul><li><b>Chaining Requests</b>: Pehle City se Lat/Long nikala, fir Weather nikala.</li><li><b>Async/Await</b>: Clean code ke liye.</li><li><b>Error Handling</b>: Agar city na mile to kya karein.</li></ul>"
+}

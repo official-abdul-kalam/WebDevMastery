@@ -1,0 +1,6 @@
+{
+    "title": "Project 11: Persistent To-Do",
+    "badge": "Project 11",
+    "description": "Data save karne wala app.",
+    "guide": "<h3>Project 11: Storage</h3><p>Is project me humne seekha:</p><ul><li><b>JSON.stringify</b>: Array ko save karne ke liye.</li><li><b>JSON.parse</b>: Array ko load karne ke liye.</li><li><b>localStorage</b>: Data ko browser me rakhne ke liye.</li></ul>"
+}

@@ -1,0 +1,79 @@
+/* PROJECT 2: STYLING */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* MAIN CONTAINER (White Card) */
+.main-container {
+    background-color: white;
+    max-width: 800px;
+    /* Zyada chauda na ho */
+    margin: 0 auto;
+    /* Center me */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER */
+.header-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* IMAGE */
+.image-section {
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    /* Patla border */
+}
+
+.profile-img {
+    max-width: 100%;
+    /* Mobile pe image bahar na nikle */
+    height: auto;
+    border-radius: 5px;
+}
+
+.caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* TIMELINE (List) */
+.timeline-section {
+    text-align: left;
+    /* List left me achi lagti hai */
+    margin-top: 40px;
+    padding: 0 50px;
+    /* Side se thodi jagah */
+}
+
+.timeline-section ul {
+    line-height: 1.8;
+    /* Lines ke beech gap */
+}
+
+/* QUOTE */
+.quote-section {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 5px solid #333;
+    /* Left me moti line */
+}

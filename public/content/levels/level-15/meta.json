@@ -1,0 +1,6 @@
+{
+    "title": "Level 15: JS Variables",
+    "badge": "Level 15",
+    "description": "Data ko 'Dabbo' (Boxes) me save karna.",
+    "guide": "<h3>Variables Kya Hain?</h3><p>Variables computer ki memory me chote dabbe hote hain jahan hum data rakhte hain.</p><ul><li><code>let</code>: Aisa dabba jiska saamaan badal sakte hain (Score, Age).</li><li><code>const</code>: Aisa dabba jo seal ho jata hai (Pi value, Game Name).</li><li><code>String</code>: Text (Quotes \"\" me).</li><li><code>Number</code>: Ginti (Bina quotes ke).</li></ul>"
+}

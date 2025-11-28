@@ -1,0 +1,6 @@
+{
+    "title": "Level 24: Creating Elements",
+    "badge": "Level 24",
+    "description": "HTML me naye tags jodna.",
+    "guide": "<h3>createElement</h3><p>Hum JS se poora HTML bana sakte hain.</p><ul><li><code>document.createElement('div')</code>: Naya div banao.</li><li><code>parent.appendChild(child)</code>: Parent ke andar child ko daalo.</li></ul>"
+}

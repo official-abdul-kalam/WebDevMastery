@@ -1,0 +1,6 @@
+{
+    "title": "Project 9: Digital Clock",
+    "badge": "Project 9",
+    "description": "Real-time clock banana.",
+    "guide": "<h3>Project 9: Clock</h3><p>Is project me humne seekha:</p><ul><li><b>Date Object</b>: <code>new Date()</code> se time lena.</li><li><b>setInterval</b>: Code ko har second repeat karna.</li><li><b>String Logic</b>: 0 add karna (Padding).</li></ul>"
+}

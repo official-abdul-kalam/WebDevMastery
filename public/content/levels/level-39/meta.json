@@ -1,0 +1,6 @@
+{
+    "title": "Level 39: Modules",
+    "badge": "Level 39",
+    "description": "Code ko files me split karna.",
+    "guide": "<h3>Import / Export</h3><p>Bade projects me hum code ko alag files me rakhte hain.</p><ul><li><code>export</code>: Doosri files ko access dene ke liye.</li><li><code>import</code>: Doosri files se access lene ke liye.</li><li>HTML me <code>type='module'</code> zaroori hai.</li></ul>"
+}

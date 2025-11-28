@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 49 - Geolocation API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Where Am I? 🌍</h2>
+            <p>Click the button to get your current coordinates.</p>
+
+            <div id="locationDisplay" class="location-box hidden">
+                <p><strong>Latitude:</strong> <span id="lat"></span></p>
+                <p><strong>Longitude:</strong> <span id="long"></span></p>
+                <a id="mapLink" href="#" target="_blank" class="map-btn">View on Google Maps</a>
+            </div>
+
+            <button id="getLocationBtn">Get My Location</button>
+            <p id="errorMsg" class="error hidden"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

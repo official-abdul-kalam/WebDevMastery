@@ -1,0 +1,6 @@
+{
+    "title": "Level 11: Basic Forms",
+    "badge": "Level 11",
+    "description": "User se data lene ka pehla kadam.",
+    "guide": "<h3>Forms Kya Hain?</h3><p>Jab bhi aap login karte hain ya Google search karte hain, aap <b>Form</b> use kar rahe hote hain.</p><ul><li><code>&lt;input&gt;</code>: Jahan user likhta hai.</li><li><code>placeholder</code>: Input ke andar ka halka text.</li><li><code>type='text'</code>: Normal writing ke liye.</li></ul>"
+}

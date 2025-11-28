@@ -1,0 +1,6 @@
+{
+    "title": "Level 40: Classes",
+    "badge": "Level 40",
+    "description": "Objects banane ka blueprint.",
+    "guide": "<h3>Class</h3><p>Ek template jisse hum kai saare objects bana sakte hain.</p><ul><li><code>constructor()</code>: Jab object banta hai tab ye chalta hai.</li><li><code>this</code>: Current object ko refer karta hai.</li></ul>"
+}

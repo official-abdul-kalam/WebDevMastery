@@ -1,0 +1,25 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+    padding: 20px;
+    text-align: center;
+}
+
+.output-box {
+    background-color: #2d2d2d;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #444;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffbd2e;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}

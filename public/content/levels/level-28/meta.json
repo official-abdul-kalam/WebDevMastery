@@ -1,0 +1,6 @@
+{
+    "title": "Level 28: JSON",
+    "badge": "Level 28",
+    "description": "Data exchange format.",
+    "guide": "<h3>JSON (JavaScript Object Notation)</h3><p>Server se data hamesha text format me aata hai.</p><ul><li><code>JSON.stringify()</code>: JS Object ko String banata hai (Save/Send karne ke liye).</li><li><code>JSON.parse()</code>: String ko wapas JS Object banata hai (Use karne ke liye).</li></ul>"
+}

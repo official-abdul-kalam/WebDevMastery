@@ -1,0 +1,6 @@
+{
+    "title": "Level 14: Form Validation",
+    "badge": "Level 14",
+    "description": "Galat data ko server par jaane se rokna.",
+    "guide": "<h3>Validation Attributes</h3><ul><li><code>required</code>: Iske bina form submit nahi hoga.</li><li><code>minlength='5'</code>: Kam se kam 5 akshar hone chahiye.</li><li><code>type='email'</code>: Email format (@) check karta hai.</li><li><code>min='18'</code>: Numbers ke liye limit set karta hai.</li></ul>"
+}

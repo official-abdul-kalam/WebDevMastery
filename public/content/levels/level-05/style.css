@@ -1,0 +1,29 @@
+/* LEVEL 5: CSS */
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+#message {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}

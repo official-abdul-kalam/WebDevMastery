@@ -1,0 +1,43 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2d2d2d;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 300px;
+    border: 1px solid #444;
+}
+
+.box {
+    padding: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+}
+
+/* Themes */
+.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #000;
+    color: #00d2ff;
+    border-color: #00d2ff;
+    box-shadow: 0 0 15px #00d2ff;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

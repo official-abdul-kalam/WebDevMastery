@@ -1,0 +1,47 @@
+<!-- 
+    LEVEL 5: JAVASCRIPT INTERACTION
+    
+    [ LOGIC: INTERACTION KAISE HOTI HAI? ]
+    HTML elements (jaise Button) ke paas "Events" hote hain.
+    Event = Kuch hona (Click, Mouse Over, Key Press).
+    
+    Hum "onclick" attribute use karke batate hain ki:
+    "Jab ye button click ho, to JS ka kaunsa function chalana hai."
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS Link -->
+</head>
+
+<body>
+
+    <h1>Buttons pe Click karo!</h1>
+
+    <!-- 
+        ONCLICK ATTRIBUTE
+        onclick="sayHello()"
+        Iska matlab: Jab click ho, to 'sayHello' naam ka function chalao.
+    -->
+    <button onclick="sayHello()">Hello Bolo</button>
+
+    <button onclick="changeColor()">Rang Badlo</button>
+
+    <!-- 
+        ID ATTRIBUTE
+        Humne is paragraph ko ek ID "message" di hai.
+        JS is ID ka use karke is element ko dhundega aur change karega.
+    -->
+    <p id="message">Mai intezaar kar raha hu...</p>
+
+    <!-- JS Link (Body ke end me) -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

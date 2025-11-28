@@ -1,0 +1,44 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2d2d2d;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 350px;
+    border: 1px solid #444;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #34495e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.car-box {
+    background: #444;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

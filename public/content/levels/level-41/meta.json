@@ -1,0 +1,6 @@
+{
+    "title": "Level 41: Closures",
+    "badge": "Level 41",
+    "description": "Functions ki yaad-dasht.",
+    "guide": "<h3>Closure</h3><p>Jab ek function return hota hai, to wo apne aas-paas ke variables ko apne saath le jaata hai.</p><ul><li>Use: Data Privacy (Private variables).</li></ul>"
+}

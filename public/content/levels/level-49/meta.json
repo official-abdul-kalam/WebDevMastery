@@ -1,0 +1,7 @@
+{
+    "id": "level-49",
+    "title": "Geolocation API",
+    "badge": "Device",
+    "description": "Learn to access the user's geographical location.",
+    "guide": "The Geolocation API allows the user to provide their location to web applications. Use `navigator.geolocation.getCurrentPosition()` to get latitude and longitude."
+}
