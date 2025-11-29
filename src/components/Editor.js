@@ -19,6 +19,18 @@ export default function CodeEditor({ language, value, onChange }) {
                     scrollBeyondLastLine: false,
                     automaticLayout: true,
                     padding: { top: 16 },
+                    wordWrap: 'on',
+                    formatOnPaste: true,
+                    formatOnType: true,
+                    suggest: {
+                        showWords: false,
+                    },
+                    quickSuggestions: true,
+                    suggestOnTriggerCharacters: true,
+                    autoClosingTags: true,
+                    autoClosingQuotes: 'always',
+                    autoClosingBrackets: 'always',
+                    autoSurround: 'languageDefined',
                 }}
             />
         </div>

@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // User Data: Only the user can read/write their own data
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // If you add more collections later (e.g., public content), add rules here
+    // match /content/{document=**} {
+    //   allow read: if true;
+    //   allow write: if false; // Only admin can write (via Console)
+    // }
+  }
+}

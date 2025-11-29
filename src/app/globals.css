@@ -135,6 +135,18 @@ a {
   animation: float 6s ease-in-out infinite;
 }
 
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -210,19 +222,21 @@ a {
 
 .card-number {
   position: absolute;
-  top: -10px;
-  right: 15px;
-  font-size: 6rem;
+  top: 10px;
+  right: 10px;
+  font-size: 4.5rem;
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.08);
   font-family: var(--font-display);
   pointer-events: none;
   transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .level-card:hover .card-number {
-  color: rgba(255, 255, 255, 0.06);
-  transform: scale(1.1);
+  color: rgba(255, 255, 255, 0.12);
+  transform: scale(1.05);
 }
 
 .card-info {
@@ -332,5 +346,43 @@ a {
 @media (min-width: 768px) {
   .footer-grid {
     grid-template-columns: 2fr 1fr 1fr;
+  }
+}
+
+/* Custom Logout Button */
+.btn-logout-custom {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn-logout-custom:hover {
+  background: rgba(255, 0, 0, 0.1);
+  border-color: rgba(255, 0, 0, 0.3);
+  color: #ff4444;
+}
+
+.btn-logout-custom:hover svg {
+  color: #ff4444 !important;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
