@@ -28,6 +28,7 @@ export default function Navbar() {
                 <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
                     <Link href="/" style={linkStyle('/')}>Home</Link>
                     <Link href="/about" style={linkStyle('/about')}>About</Link>
+                    <Link href="/coming-soon" style={linkStyle('/coming-soon')}>Coming Soon</Link>
                     <Link href="/pricing" style={linkStyle('/pricing')}>Pricing</Link>
                     <button className="btn btn-login" style={{ borderRadius: '30px', padding: '0.6rem 1.5rem' }}>
                         Login

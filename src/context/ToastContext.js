@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { FaCheckCircle, FaExclamationCircle, FaInfoCircle, FaTimes } from 'react-icons/fa';
 
 const ToastContext = createContext({});
@@ -10,7 +10,11 @@ export const useToast = () => useContext(ToastContext);
 export const ToastProvider = ({ children }) => {
     const [toasts, setToasts] = useState([]);
 
-    const addToast = (message, type = 'info') => {
+    const removeToast = useCallback((id) => {
+        setToasts(prev => prev.filter(t => t.id !== id));
+    }, []);
+
+    const addToast = useCallback((message, type = 'info') => {
         const id = Date.now();
         setToasts(prev => [...prev, { id, message, type }]);
 
@@ -18,11 +22,7 @@ export const ToastProvider = ({ children }) => {
         setTimeout(() => {
             removeToast(id);
         }, 3000);
-    };
-
-    const removeToast = (id) => {
-        setToasts(prev => prev.filter(t => t.id !== id));
-    };
+    }, [removeToast]);
 
     return (
         <ToastContext.Provider value={{ addToast }}>
